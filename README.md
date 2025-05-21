@@ -16,6 +16,7 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 - [GR Friuli Venezia Giulia](https://www.raiplaysound.it/programmi/grfriuliveneziagiulia)
 - [GR Sardegna](https://www.raiplaysound.it/programmi/grsardegna)
 - [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1)
+- [Radio2 Radio Show La Pennicanza](https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza)
 - [Radio3 Mondo](https://www.raiplaysound.it/programmi/radio3mondo)
 - [Radio3 Scienza](https://www.raiplaysound.it/programmi/radio3scienza)
 - [Radio anch'io](https://www.raiplaysound.it/programmi/radioanchio)
@@ -36,6 +37,7 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grfriuliveneziagiulia.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grsardegna.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio2radioshowlapennicanza.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3mondo.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3scienza.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radioanchio.xml`

@@ -14,6 +14,7 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 - [Giù la maschera](https://www.raiplaysound.it/programmi/giulamaschera)
 - [GR 1](https://www.raiplaysound.it/programmi/gr1)
 - [GR Friuli Venezia Giulia](https://www.raiplaysound.it/programmi/grfriuliveneziagiulia)
+- [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio)
 - [GR Sardegna](https://www.raiplaysound.it/programmi/grsardegna)
 - [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1)
 - [Radio2 Radio Show La Pennicanza](https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza)
@@ -36,6 +37,7 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_gr1.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grfriuliveneziagiulia.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grsardegna.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/ilruggitodelconiglio.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio2radioshowlapennicanza.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3mondo.xml`

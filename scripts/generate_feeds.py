@@ -18,7 +18,8 @@ PROGRAMS = {
     "sotto-questalottaciriguarda": "https://www.raiplaysound.it/programmi/sotto-questalottaciriguarda",
     "battiti": "https://www.raiplaysound.it/programmi/battiti",
     "giulamaschera": "https://www.raiplaysound.it/programmi/giulamaschera",
-    "radio2radioshowlapennicanza": "https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza"
+    "radio2radioshowlapennicanza": "https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza",
+    "ilruggitodelconiglio": "https://www.raiplaysound.it/programmi/ilruggitodelconiglio"
 }
 for name, url in PROGRAMS.items():
     print(f"Generazione feed per {name}...")

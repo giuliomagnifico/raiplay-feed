@@ -3,6 +3,7 @@ from single import RaiParser
 
 SCRIPT_PATH = os.path.abspath("scripts/single.py")
 PROGRAMS = {
+    "almanaccomafioso": "https://www.raiplaysound.it/programmi/almanaccomafioso",
     "ungiornodapecora": "https://www.raiplaysound.it/programmi/ungiornodapecora",
     "zapping": "https://www.raiplaysound.it/programmi/zapping",
     "radioanchio": "https://www.raiplaysound.it/programmi/radioanchio",

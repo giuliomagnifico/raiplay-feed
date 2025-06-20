@@ -8,6 +8,7 @@ Questo repository è impostato per aggiornarsi automaticamente ogni ora e ricrea
 
 Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 
+- [Almanacco Mafioso](https://www.raiplaysound.it/programmi/almanaccomafioso)
 - [Battiti](https://www.raiplaysound.it/programmi/battiti)
 - [Eta Beta](https://www.raiplaysound.it/programmi/etabeta)
 - [Detectives - Casi risolti e irrisolti](https://www.raiplaysound.it/programmi/detectives-casirisoltieirrisolti)
@@ -29,7 +30,8 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 ***
 
   Per iscriversi ai feed, i link sono:
-  
+
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_almanaccomafioso.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_battiti.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_etabeta.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_detectives-casirisoltieirrisolti.xml`

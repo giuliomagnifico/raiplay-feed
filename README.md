@@ -23,6 +23,7 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 - [Radio3 Scienza](https://www.raiplaysound.it/programmi/radio3scienza)
 - [Radio anch'io](https://www.raiplaysound.it/programmi/radioanchio)
 - [Sotto - Questa lotta ci riguarda](https://www.raiplaysound.it/programmi/sotto-questalottaciriguarda)
+- [Tutta la città ne parla](https://www.raiplaysound.it/programmi/tuttalacittaneparla)
 - [Tra poco in edicola](https://www.raiplaysound.it/programmi/trapocoinedicola)
 - [Un giorno da pecora](https://www.raiplaysound.it/programmi/ungiornodapecora)
 - [Zapping](https://www.raiplaysound.it/programmi/zapping)
@@ -47,6 +48,7 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radioanchio.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_sotto-questalottaciriguarda.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_trapocoinedicola.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_tuttalacittaneparla.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ungiornodapecora.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_zapping.xml`
 

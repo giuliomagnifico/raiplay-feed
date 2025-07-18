@@ -20,6 +20,7 @@ PROGRAMS = {
     "battiti": "https://www.raiplaysound.it/programmi/battiti",
     "giulamaschera": "https://www.raiplaysound.it/programmi/giulamaschera",
     "radio2radioshowlapennicanza": "https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza",
+    "revolution": "https://www.raiplaysound.it/programmi/revolution",
     "ilruggitodelconiglio": "https://www.raiplaysound.it/programmi/ilruggitodelconiglio",
     "tuttalacittaneparla": "https://www.raiplaysound.it/programmi/tuttalacittaneparla"
 }

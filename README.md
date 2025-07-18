@@ -22,6 +22,7 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 - [Radio3 Mondo](https://www.raiplaysound.it/programmi/radio3mondo)
 - [Radio3 Scienza](https://www.raiplaysound.it/programmi/radio3scienza)
 - [Radio anch'io](https://www.raiplaysound.it/programmi/radioanchio)
+- [Revolution](https://www.raiplaysound.it/programmi/revolution)
 - [Sotto - Questa lotta ci riguarda](https://www.raiplaysound.it/programmi/sotto-questalottaciriguarda)
 - [Tutta la città ne parla](https://www.raiplaysound.it/programmi/tuttalacittaneparla)
 - [Tra poco in edicola](https://www.raiplaysound.it/programmi/trapocoinedicola)
@@ -40,12 +41,13 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_gr1.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grfriuliveneziagiulia.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grsardegna.xml`
-  - `https://giuliomagnifico.github.io/raiplay-feed/ilruggitodelconiglio.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_ilruggitodelconiglio.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio2radioshowlapennicanza.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3mondo.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3scienza.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radioanchio.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_revolution.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_sotto-questalottaciriguarda.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_trapocoinedicola.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_tuttalacittaneparla.xml`

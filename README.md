@@ -12,11 +12,13 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 - [Battiti](https://www.raiplaysound.it/programmi/battiti)
 - [Eta Beta](https://www.raiplaysound.it/programmi/etabeta)
 - [Detectives - Casi risolti e irrisolti](https://www.raiplaysound.it/programmi/detectives-casirisoltieirrisolti)
+- [Fahrenheit](https://www.raiplaysound.it/programmi/fahrenheit)
 - [Giù la maschera](https://www.raiplaysound.it/programmi/giulamaschera)
 - [GR 1](https://www.raiplaysound.it/programmi/gr1)
 - [GR Friuli Venezia Giulia](https://www.raiplaysound.it/programmi/grfriuliveneziagiulia)
-- [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio)
 - [GR Sardegna](https://www.raiplaysound.it/programmi/grsardegna)
+- [Hollywood Party](https://www.raiplaysound.it/programmi/hollywoodparty)
+- [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio)
 - [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1)
 - [Prima Pagina](https://www.raiplaysound.it/programmi/primapagina)
 - [Radio2 Radio Show La Pennicanza](https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza)
@@ -38,10 +40,12 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_battiti.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_etabeta.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_detectives-casirisoltieirrisolti.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_fahrenheit.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_giulamaschera.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_gr1.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grfriuliveneziagiulia.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grsardegna.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_hollywoodparty.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ilruggitodelconiglio.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio2radioshowlapennicanza.xml`

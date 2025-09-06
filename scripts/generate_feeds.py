@@ -23,7 +23,9 @@ PROGRAMS = {
     "revolution": "https://www.raiplaysound.it/programmi/revolution",
     "ilruggitodelconiglio": "https://www.raiplaysound.it/programmi/ilruggitodelconiglio",
     "tuttalacittaneparla": "https://www.raiplaysound.it/programmi/tuttalacittaneparla",
-    "primapagina": "https://www.raiplaysound.it/programmi/primapagina"
+    "primapagina": "https://www.raiplaysound.it/programmi/primapagina",
+    "fahrenheit": "https://www.raiplaysound.it/programmi/fahrenheit",
+    "hollywoodparty": "https://www.raiplaysound.it/programmi/hollywoodparty"
 }
 for name, url in PROGRAMS.items():
     print(f"Generazione feed per {name}...")

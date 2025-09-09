@@ -15,10 +15,13 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 - [Fahrenheit](https://www.raiplaysound.it/programmi/fahrenheit)
 - [Giù la maschera](https://www.raiplaysound.it/programmi/giulamaschera)
 - [GR 1](https://www.raiplaysound.it/programmi/gr1)
+- [GR 3](https://www.raiplaysound.it/programmi/gr3)
 - [GR Friuli Venezia Giulia](https://www.raiplaysound.it/programmi/grfriuliveneziagiulia)
 - [GR Sardegna](https://www.raiplaysound.it/programmi/grsardegna)
 - [Hollywood Party](https://www.raiplaysound.it/programmi/hollywoodparty)
 - [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio)
+- [La musica tra le righe](https://www.raiplaysound.it/programmi/lamusicatralerighe)
+- [L'idealista](https://www.raiplaysound.it/programmi/lidealista)
 - [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1)
 - [Prima Pagina](https://www.raiplaysound.it/programmi/primapagina)
 - [Radio2 Radio Show La Pennicanza](https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza)
@@ -30,6 +33,8 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
 - [Tutta la città ne parla](https://www.raiplaysound.it/programmi/tuttalacittaneparla)
 - [Tra poco in edicola](https://www.raiplaysound.it/programmi/trapocoinedicola)
 - [Un giorno da pecora](https://www.raiplaysound.it/programmi/ungiornodapecora)
+- [Wikiradio](https://www.raiplaysound.it/programmi/wikiradio)
+- [Wikiradio. Le voci della storia](https://www.raiplaysound.it/programmi/wikiradiolevocidellastoria)
 - [Zapping](https://www.raiplaysound.it/programmi/zapping)
 
 ***
@@ -43,10 +48,13 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_fahrenheit.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_giulamaschera.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_gr1.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_gr3.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grfriuliveneziagiulia.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_grsardegna.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_hollywoodparty.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ilruggitodelconiglio.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_lamusicatralerighe.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_lidealista.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_radio2radioshowlapennicanza.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_primapagina.xml`
@@ -58,6 +66,8 @@ Siccome l'ho fatto per me, ho incluso i podcast che mi interessano:
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_trapocoinedicola.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_tuttalacittaneparla.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_ungiornodapecora.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_wikiradio.xml`
+  - `https://giuliomagnifico.github.io/raiplay-feed/feed_wikiradiolevocidellastoria.xml`
   - `https://giuliomagnifico.github.io/raiplay-feed/feed_zapping.xml`
 
 

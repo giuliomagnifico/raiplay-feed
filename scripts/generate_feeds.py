@@ -14,6 +14,7 @@ PROGRAMS = {
     "gr1": "https://www.raiplaysound.it/programmi/gr1",
     "grfriuliveneziagiulia": "https://www.raiplaysound.it/programmi/grfriuliveneziagiulia",
     "grsardegna": "https://www.raiplaysound.it/programmi/grsardegna",
+    "gr3": "https://www.raiplaysound.it/programmi/gr3",
     "detectives-casirisoltieirrisolti": "https://www.raiplaysound.it/programmi/detectives-casirisoltieirrisolti",
     "radio3mondo": "https://www.raiplaysound.it/programmi/radio3mondo",
     "sotto-questalottaciriguarda": "https://www.raiplaysound.it/programmi/sotto-questalottaciriguarda",
@@ -25,7 +26,11 @@ PROGRAMS = {
     "tuttalacittaneparla": "https://www.raiplaysound.it/programmi/tuttalacittaneparla",
     "primapagina": "https://www.raiplaysound.it/programmi/primapagina",
     "fahrenheit": "https://www.raiplaysound.it/programmi/fahrenheit",
-    "hollywoodparty": "https://www.raiplaysound.it/programmi/hollywoodparty"
+    "hollywoodparty": "https://www.raiplaysound.it/programmi/hollywoodparty",
+    "lidealista": "https://www.raiplaysound.it/programmi/lidealista",
+    "lamusicatralerighe": "www.raiplaysound.it/programmi/lamusicatralerighe",
+    "wikiradio": "https://www.raiplaysound.it/programmi/wikiradio"
+    "wikiradiolevocidellastoria": "https://www.raiplaysound.it/programmi/wikiradiolevocidellastoria"
 }
 for name, url in PROGRAMS.items():
     print(f"Generazione feed per {name}...")

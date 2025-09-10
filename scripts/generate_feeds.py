@@ -28,7 +28,7 @@ PROGRAMS = {
     "fahrenheit": "https://www.raiplaysound.it/programmi/fahrenheit",
     "hollywoodparty": "https://www.raiplaysound.it/programmi/hollywoodparty",
     "lidealista": "https://www.raiplaysound.it/programmi/lidealista",
-    "lamusicatralerighe": "www.raiplaysound.it/programmi/lamusicatralerighe",
+    "lamusicatralerighe": "https://www.raiplaysound.it/programmi/lamusicatralerighe",
     "wikiradio": "https://www.raiplaysound.it/programmi/wikiradio",
     "wikiradiolevocidellastoria": "https://www.raiplaysound.it/programmi/wikiradiolevocidellastoria"
 }

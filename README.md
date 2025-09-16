@@ -20,6 +20,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [GR 3](https://www.raiplaysound.it/programmi/gr3) | `https://giuliomagnifico.github.io/raiplay-feed/feed_gr3.xml` |
 | [GR Friuli Venezia Giulia](https://www.raiplaysound.it/programmi/grfriuliveneziagiulia) | `https://giuliomagnifico.github.io/raiplay-feed/feed_grfriuliveneziagiulia.xml` |
 | [GR Sardegna](https://www.raiplaysound.it/programmi/grsardegna) | `https://giuliomagnifico.github.io/raiplay-feed/feed_grsardegna.xml` |
+| [GR Sicilia](https://www.raiplaysound.it/programmi/grsicilia) | `https://giuliomagnifico.github.io/raiplay-feed/feed_grsicilia.xml` |
 | [Hollywood Party](https://www.raiplaysound.it/programmi/hollywoodparty) | `https://giuliomagnifico.github.io/raiplay-feed/feed_hollywoodparty.xml` |
 | [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ilruggitodelconiglio.xml` |
 | [La musica tra le righe](https://www.raiplaysound.it/programmi/lamusicatralerighe) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lamusicatralerighe.xml` |

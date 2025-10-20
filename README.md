@@ -37,6 +37,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [Tutta la città ne parla](https://www.raiplaysound.it/programmi/tuttalacittaneparla) | `https://giuliomagnifico.github.io/raiplay-feed/feed_tuttalacittaneparla.xml` |
 | [Tra poco in edicola](https://www.raiplaysound.it/programmi/trapocoinedicola) | `https://giuliomagnifico.github.io/raiplay-feed/feed_trapocoinedicola.xml` |
 | [Un giorno da pecora](https://www.raiplaysound.it/programmi/ungiornodapecora) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ungiornodapecora.xml` |
+| [Uomini e Profeti](https://www.raiplaysound.it/programmi/uominieprofeti) | `https://giuliomagnifico.github.io/raiplay-feed/feed_uominieprofeti.xml` |
 | [Wikiradio](https://www.raiplaysound.it/programmi/wikiradio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_wikiradio.xml` |
 | [Wikiradio. Le voci della storia](https://www.raiplaysound.it/programmi/wikiradiolevocidellastoria) | `https://giuliomagnifico.github.io/raiplay-feed/feed_wikiradiolevocidellastoria.xml` |
 | [Zapping](https://www.raiplaysound.it/programmi/zapping) | `https://giuliomagnifico.github.io/raiplay-feed/feed_zapping.xml` |

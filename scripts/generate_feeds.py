@@ -33,7 +33,8 @@ PROGRAMS = {
     "wikiradiolevocidellastoria": "https://www.raiplaysound.it/programmi/wikiradiolevocidellastoria",
     "grsicilia": "https://www.raiplaysound.it/programmi/grsicilia",
     "iltuffo": "https://www.raiplaysound.it/programmi/iltuffo",
-    "uominieprofeti": "https://www.raiplaysound.it/programmi/uominieprofeti"
+    "uominieprofeti": "https://www.raiplaysound.it/programmi/uominieprofeti",
+    "lastanzadellamusica": "https://www.raiplaysound.it/programmi/lastanzadellamusica",
 }
 for name, url in PROGRAMS.items():
     print(f"Generazione feed per {name}...")

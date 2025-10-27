@@ -25,6 +25,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ilruggitodelconiglio.xml` |
 | [Il Tuffo](https://www.raiplaysound.it/programmi/iltuffo) | `https://giuliomagnifico.github.io/raiplay-feed/feed_iltuffo.xml` |
 | [La musica tra le righe](https://www.raiplaysound.it/programmi/lamusicatralerighe) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lamusicatralerighe.xml` |
+| [La stanza della musica](https://www.raiplaysound.it/programmi/lastanzadellamusica) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lastanzadellamusica.xml` |
 | [L'idealista](https://www.raiplaysound.it/programmi/lidealista) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lidealista.xml` |
 | [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml` |
 | [Prima Pagina](https://www.raiplaysound.it/programmi/primapagina) | `https://giuliomagnifico.github.io/raiplay-feed/feed_primapagina.xml` |

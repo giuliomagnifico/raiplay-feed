@@ -24,10 +24,13 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [Hollywood Party](https://www.raiplaysound.it/programmi/hollywoodparty) | `https://giuliomagnifico.github.io/raiplay-feed/feed_hollywoodparty.xml` |
 | [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ilruggitodelconiglio.xml` |
 | [Il Tuffo](https://www.raiplaysound.it/programmi/iltuffo) | `https://giuliomagnifico.github.io/raiplay-feed/feed_iltuffo.xml` |
+| [La grande radio](https://www.raiplaysound.it/programmi/lagranderadio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lagranderadio.xml` |
 | [La musica tra le righe](https://www.raiplaysound.it/programmi/lamusicatralerighe) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lamusicatralerighe.xml` |
 | [La stanza della musica](https://www.raiplaysound.it/programmi/lastanzadellamusica) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lastanzadellamusica.xml` |
 | [L'idealista](https://www.raiplaysound.it/programmi/lidealista) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lidealista.xml` |
 | [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml` |
+| [L'isola deserta](https://www.raiplaysound.it/programmi/lisoladeserta) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lisoladeserta.xml` |
+| [Pantheon](https://www.raiplaysound.it/programmi/pantheon) | `https://giuliomagnifico.github.io/raiplay-feed/feed_pantheon.xml` |
 | [Prima Pagina](https://www.raiplaysound.it/programmi/primapagina) | `https://giuliomagnifico.github.io/raiplay-feed/feed_primapagina.xml` |
 | [Radio2 Radio Show La Pennicanza](https://www.raiplaysound.it/programmi/radio2radioshowlapennicanza) | `https://giuliomagnifico.github.io/raiplay-feed/feed_radio2radioshowlapennicanza.xml` |
 | [Radio3 Mondo](https://www.raiplaysound.it/programmi/radio3mondo) | `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3mondo.xml` |

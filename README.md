@@ -11,6 +11,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | Programma | Feed |
 |-----------|------|
 | [Almanacco Mafioso](https://www.raiplaysound.it/programmi/almanaccomafioso) | `https://giuliomagnifico.github.io/raiplay-feed/feed_almanaccomafioso.xml` |
+| [America7](https://www.raiplaysound.it/programmi/america7) | `https://giuliomagnifico.github.io/raiplay-feed/feed_america7.xml` |
 | [Battiti](https://www.raiplaysound.it/programmi/battiti) | `https://giuliomagnifico.github.io/raiplay-feed/feed_battiti.xml` |
 | [Eta Beta](https://www.raiplaysound.it/programmi/etabeta) | `https://giuliomagnifico.github.io/raiplay-feed/feed_etabeta.xml` |
 | [Detectives - Casi risolti e irrisolti](https://www.raiplaysound.it/programmi/detectives-casirisoltieirrisolti) | `https://giuliomagnifico.github.io/raiplay-feed/feed_detectives-casirisoltieirrisolti.xml` |
@@ -23,6 +24,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [GR Sicilia](https://www.raiplaysound.it/programmi/grsicilia) | `https://giuliomagnifico.github.io/raiplay-feed/feed_grsicilia.xml` |
 | [Hollywood Party](https://www.raiplaysound.it/programmi/hollywoodparty) | `https://giuliomagnifico.github.io/raiplay-feed/feed_hollywoodparty.xml` |
 | [Il Ruggito del Coniglio](https://www.raiplaysound.it/programmi/ilruggitodelconiglio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ilruggitodelconiglio.xml` |
+| [Il teatro di Radio3](https://www.raiplaysound.it/programmi/ilteatrodiradio3) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ilteatrodiradio3.xml` |
 | [Il Tuffo](https://www.raiplaysound.it/programmi/iltuffo) | `https://giuliomagnifico.github.io/raiplay-feed/feed_iltuffo.xml` |
 | [La grande radio](https://www.raiplaysound.it/programmi/lagranderadio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lagranderadio.xml` |
 | [La musica tra le righe](https://www.raiplaysound.it/programmi/lamusicatralerighe) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lamusicatralerighe.xml` |
@@ -37,6 +39,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [Radio3 Scienza](https://www.raiplaysound.it/programmi/radio3scienza) | `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3scienza.xml` |
 | [Radio anch'io](https://www.raiplaysound.it/programmi/radioanchio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_radioanchio.xml` |
 | [Revolution](https://www.raiplaysound.it/programmi/revolution) | `https://giuliomagnifico.github.io/raiplay-feed/feed_revolution.xml` |
+| [Sei gradi](https://www.raiplaysound.it/programmi/seigradi) | `https://giuliomagnifico.github.io/raiplay-feed/feed_seigradi.xml` |
 | [Sotto - Questa lotta ci riguarda](https://www.raiplaysound.it/programmi/sotto-questalottaciriguarda) | `https://giuliomagnifico.github.io/raiplay-feed/feed_sotto-questalottaciriguarda.xml` |
 | [Tutta la città ne parla](https://www.raiplaysound.it/programmi/tuttalacittaneparla) | `https://giuliomagnifico.github.io/raiplay-feed/feed_tuttalacittaneparla.xml` |
 | [Tra poco in edicola](https://www.raiplaysound.it/programmi/trapocoinedicola) | `https://giuliomagnifico.github.io/raiplay-feed/feed_trapocoinedicola.xml` |

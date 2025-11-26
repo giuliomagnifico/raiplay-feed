@@ -4,12 +4,14 @@ from single import RaiParser
 SCRIPT_PATH = os.path.abspath("scripts/single.py")
 PROGRAMS = {
     "almanaccomafioso": "https://www.raiplaysound.it/programmi/almanaccomafioso",
+    "america7": "https://www.raiplaysound.it/programmi/america7",
     "ungiornodapecora": "https://www.raiplaysound.it/programmi/ungiornodapecora",
     "zapping": "https://www.raiplaysound.it/programmi/zapping",
     "radioanchio": "https://www.raiplaysound.it/programmi/radioanchio",
     "trapocoinedicola": "https://www.raiplaysound.it/programmi/trapocoinedicola",
     "radio3scienza": "https://www.raiplaysound.it/programmi/radio3scienza",
     "etabeta": "https://www.raiplaysound.it/programmi/etabeta",
+    "ilteatrodiradio3": "https://www.raiplaysound.it/programmi/ilteatrodiradio3",
     "lagranderadio": "https://www.raiplaysound.it/programmi/lagranderadio",
     "ledicoladiradio1": "https://www.raiplaysound.it/programmi/ledicoladiradio1",
     "lisoladeserta": "https://www.raiplaysound.it/programmi/lisoladeserta",
@@ -28,6 +30,7 @@ PROGRAMS = {
     "tuttalacittaneparla": "https://www.raiplaysound.it/programmi/tuttalacittaneparla",
     "pantheon": "https://www.raiplaysound.it/programmi/pantheon",
     "primapagina": "https://www.raiplaysound.it/programmi/primapagina",
+    "seigradi": "https://www.raiplaysound.it/programmi/seigradi",
     "fahrenheit": "https://www.raiplaysound.it/programmi/fahrenheit",
     "hollywoodparty": "https://www.raiplaysound.it/programmi/hollywoodparty",
     "lidealista": "https://www.raiplaysound.it/programmi/lidealista",

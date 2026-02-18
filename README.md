@@ -29,6 +29,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [La grande radio](https://www.raiplaysound.it/programmi/lagranderadio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lagranderadio.xml` |
 | [La musica tra le righe](https://www.raiplaysound.it/programmi/lamusicatralerighe) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lamusicatralerighe.xml` |
 | [La stanza della musica](https://www.raiplaysound.it/programmi/lastanzadellamusica) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lastanzadellamusica.xml` |
+| [Lillo e Greg 610]([https://www.raiplaysound.it/programmi/lastanzadellamusica](https://www.raiplaysound.it/programmi/lilloegreg610)) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lilloegreg610.xml` |
 | [L'idealista](https://www.raiplaysound.it/programmi/lidealista) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lidealista.xml` |
 | [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml` |
 | [L'isola deserta](https://www.raiplaysound.it/programmi/lisoladeserta) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lisoladeserta.xml` |

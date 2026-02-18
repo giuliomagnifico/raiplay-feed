@@ -14,6 +14,7 @@ PROGRAMS = {
     "ilteatrodiradio3": "https://www.raiplaysound.it/programmi/ilteatrodiradio3",
     "lagranderadio": "https://www.raiplaysound.it/programmi/lagranderadio",
     "ledicoladiradio1": "https://www.raiplaysound.it/programmi/ledicoladiradio1",
+    "lilloegreg610": "https://www.raiplaysound.it/programmi/lilloegreg610",
     "lisoladeserta": "https://www.raiplaysound.it/programmi/lisoladeserta",
     "gr1": "https://www.raiplaysound.it/programmi/gr1",
     "grfriuliveneziagiulia": "https://www.raiplaysound.it/programmi/grfriuliveneziagiulia",

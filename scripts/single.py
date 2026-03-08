@@ -78,17 +78,22 @@ def _iter_episode_like_nodes(node):
 
 def resolve_final_audio_url(session: requests.Session, url: str) -> str | None:
     """
-    Risolve il link audio finale.
-    Accetta solo file audio diretti (.mp3/.m4a/.aac o content-type audio/*).
-    Scarta relinker non risolti, playlist HLS (.m3u8) e risposte HTML/XML.
+    Restituisce solo URL audio diretti.
+    Scarta relinker non risolti e playlist HLS (.m3u8).
+    Versione alleggerita per GitHub Actions.
     """
     if not url:
         return None
 
     url = str(url).replace("http:", "https:")
+    parsed = urlparse(url)
+    path = (parsed.path or "").lower()
+
+    if path.endswith(".mp3") or path.endswith(".m4a") or path.endswith(".aac"):
+        return url
 
     try:
-        r = session.get(url, allow_redirects=True, timeout=20, stream=True)
+        r = session.get(url, allow_redirects=True, timeout=12, stream=True)
         final_url = r.url
         content_type = (r.headers.get("content-type") or "").lower()
         r.close()
@@ -116,32 +121,6 @@ def resolve_final_audio_url(session: requests.Session, url: str) -> str | None:
     return None
 
 
-def get_content_length(session: requests.Session, url: str) -> str | None:
-    """
-    Recupera content-length se disponibile.
-    """
-    try:
-        r = session.head(url, allow_redirects=True, timeout=20)
-        if r.ok:
-            length = r.headers.get("content-length")
-            if length and length.isdigit():
-                return length
-    except requests.RequestException:
-        pass
-
-    try:
-        r = session.get(url, allow_redirects=True, timeout=20, stream=True)
-        if r.ok:
-            length = r.headers.get("content-length")
-            r.close()
-            if length and length.isdigit():
-                return length
-    except requests.RequestException:
-        pass
-
-    return None
-
-
 class RaiParser:
     def __init__(self, url: str, folderPath: str) -> None:
         self.url = url.rstrip("/")
@@ -156,7 +135,9 @@ class RaiParser:
         )
 
     def process(self) -> None:
-        r = self.session.get(self.url + ".json", timeout=20)
+        print(f"[feed] Processing podcast: {self.url}", flush=True)
+
+        r = self.session.get(self.url + ".json", timeout=12)
         r.raise_for_status()
         rdata = r.json()
 
@@ -236,13 +217,18 @@ class RaiParser:
                 raw_audio_url = str(audio["url"]).replace("http:", "https:")
 
             if not raw_audio_url:
+                print(f"[skip] No audio URL: {title}", flush=True)
                 continue
+
+            print(f"[episode] {title}", flush=True)
+            print(f"[audio] {raw_audio_url}", flush=True)
 
             enclosure_url = resolve_final_audio_url(self.session, raw_audio_url)
             if not enclosure_url:
+                print(f"[skip] Unresolved or unsupported audio: {title}", flush=True)
                 continue
 
-            enclosure_length = get_content_length(self.session, enclosure_url)
+            print(f"[resolved] {enclosure_url}", flush=True)
 
             fitem = FeedItem()
             fitem.title = title
@@ -270,15 +256,11 @@ class RaiParser:
             if img:
                 img = urljoin(self.url + "/", img)
 
-            enclosure_data = {
-                "@type": "audio/mpeg",
-                "@url": enclosure_url,
-            }
-            if enclosure_length:
-                enclosure_data["@length"] = enclosure_length
-
             fitem._data = {
-                "enclosure": enclosure_data,
+                "enclosure": {
+                    "@type": "audio/mpeg",
+                    "@url": enclosure_url,
+                },
                 f"{NSITUNES}title": fitem.title,
                 f"{NSITUNES}summary": fitem.content,
             }
@@ -303,6 +285,7 @@ class RaiParser:
 
         filename = os.path.join(self.folderPath, url_to_filename(self.url))
         atomic_write(filename, to_rss_string(feed))
+        print(f"[done] Written: {filename}", flush=True)
 
 
 def atomic_write(filename, content: str):

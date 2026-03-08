@@ -50,13 +50,15 @@ def _datetime_parser(s: str) -> dt:
 def _iter_episode_like_nodes(node):
     """
     Estrae ricorsivamente i dict che sembrano episodi:
-    - hanno track_info (o page_url) e un audio o downloadable_audio
+    - hanno track_info / trackInfo (o page_url / pageUrl)
+    - hanno un audio o downloadable_audio / downloadableAudio
     """
     if isinstance(node, dict):
         has_track = (
             isinstance(node.get("track_info"), dict)
             or isinstance(node.get("trackInfo"), dict)
             or "page_url" in node
+            or "pageUrl" in node
         )
         has_audio = (
             isinstance(node.get("audio"), dict)
@@ -160,7 +162,8 @@ class RaiParser:
 
         feed = Feed()
         feed.title = rdata.get("title") or rdata.get("name") or self.url
-        pi = rdata.get("podcast_info") or {}
+
+        pi = rdata.get("podcast_info") or rdata.get("podcastInfo") or {}
         feed.description = pi.get("description") or feed.title
         feed.url = self.url
 
@@ -177,8 +180,9 @@ class RaiParser:
         genres = pi.get("genres") or []
         subgenres = pi.get("subgenres") or []
         dfp = pi.get("dfp") or {}
-        esc_genres = dfp.get("escaped_genres") or []
-        esc_typ = dfp.get("escaped_typology") or []
+        esc_genres = dfp.get("escaped_genres") or dfp.get("escapedGenres") or []
+        esc_typ = dfp.get("escaped_typology") or dfp.get("escapedTypology") or []
+
         categories = {
             c.get("name")
             for c in chain(genres, subgenres)
@@ -197,6 +201,137 @@ class RaiParser:
 
         for item in _iter_episode_like_nodes(rdata):
             audio = item.get("audio") or {}
-            d_audio = item.get("downloadable_audio") or {}
+            d_audio = item.get("downloadable_audio") or item.get("downloadableAudio") or {}
 
-           
+            track_info = item.get("track_info") or item.get("trackInfo") or {}
+            page_url = (
+                track_info.get("page_url")
+                or track_info.get("pageUrl")
+                or item.get("page_url")
+                or item.get("pageUrl")
+            )
+            if not page_url:
+                continue
+
+            title = (
+                item.get("toptitle")
+                or item.get("topTitle")
+                or item.get("title")
+                or track_info.get("title")
+                or "Senza titolo"
+            )
+
+            uniq = (
+                item.get("uniquename")
+                or item.get("uniqueName")
+                or track_info.get("uniquename")
+                or track_info.get("uniqueName")
+                or page_url
+            )
+
+            raw_audio_url = None
+            if isinstance(d_audio, dict) and d_audio.get("url"):
+                raw_audio_url = str(d_audio["url"]).replace("http:", "https:")
+            elif isinstance(audio, dict) and audio.get("url"):
+                raw_audio_url = str(audio["url"]).replace("http:", "https:")
+
+            if not raw_audio_url:
+                continue
+
+            enclosure_url = resolve_final_audio_url(self.session, raw_audio_url)
+            if not enclosure_url:
+                continue
+
+            enclosure_length = get_content_length(self.session, enclosure_url)
+
+            fitem = FeedItem()
+            fitem.title = title
+            fitem.id = "giuliomagnifico-raiplay-feed-" + str(uniq)
+            fitem.update = _datetime_parser(
+                track_info.get("date")
+                or track_info.get("publish_date")
+                or track_info.get("publishDate")
+                or item.get("date")
+            )
+            fitem.url = urljoin(self.url + "/", page_url)
+            fitem.content = (
+                item.get("description")
+                or track_info.get("description")
+                or title
+            )
+
+            duration = None
+            if isinstance(d_audio, dict):
+                duration = d_audio.get("duration")
+            if duration is None and isinstance(audio, dict):
+                duration = audio.get("duration")
+
+            img = item.get("image") or track_info.get("image")
+            if img:
+                img = urljoin(self.url + "/", img)
+
+            enclosure_data = {
+                "@type": "audio/mpeg",
+                "@url": enclosure_url,
+            }
+            if enclosure_length:
+                enclosure_data["@length"] = enclosure_length
+
+            fitem._data = {
+                "enclosure": enclosure_data,
+                f"{NSITUNES}title": fitem.title,
+                f"{NSITUNES}summary": fitem.content,
+            }
+
+            if duration is not None:
+                fitem._data[f"{NSITUNES}duration"] = duration
+            if img:
+                fitem._data["image"] = {"url": img}
+
+            feed.items.append(fitem)
+
+        feed.items.sort(key=lambda x: x.update, reverse=True)
+
+        seen = set()
+        deduped = []
+        for it in feed.items:
+            if it.id in seen:
+                continue
+            seen.add(it.id)
+            deduped.append(it)
+        feed.items = deduped
+
+        filename = os.path.join(self.folderPath, url_to_filename(self.url))
+        atomic_write(filename, to_rss_string(feed))
+
+
+def atomic_write(filename, content: str):
+    tmp = tempfile.NamedTemporaryFile(
+        mode="w",
+        encoding="utf8",
+        delete=False,
+        dir=os.path.dirname(filename),
+        prefix=".tmp-single-",
+        suffix=".xml",
+    )
+    tmp.write(content)
+    tmp.close()
+    os.replace(tmp.name, filename)
+
+
+def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Genera RSS da RaiPlaySound",
+        epilog="Info su https://github.com/giuliomagnifico/raiplay-feed/",
+    )
+    parser.add_argument("url", help="URL podcast RaiPlaySound")
+    parser.add_argument("-f", "--folder", default=".", help="Cartella output")
+    args = parser.parse_args()
+
+    RaiParser(args.url, args.folder).process()
+
+
+if __name__ == "__main__":
+    main()

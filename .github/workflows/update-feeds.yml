@@ -1,25 +1,33 @@
 name: Update RaiPlaySound Feeds
+
 on:
   schedule:
     - cron: "0 */1 * * *"
   workflow_dispatch:
+
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           persist-credentials: false
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
+
       - name: Install dependencies
         run: |
           pip install requests beautifulsoup4 lxml feedendum chardet python-dateutil certifi
+
       - name: Generate Feeds
         run: python scripts/generate_feeds.py
+
       - name: Debug - Verifica file generati
         run: |
           echo "Contenuto della directory:"
@@ -30,6 +38,7 @@ jobs:
             cat "$file"
             echo "-----------------------------"
           done
+
       - name: Verifica dimensione file XML
         run: |
           for file in feed_*.xml; do
@@ -38,6 +47,7 @@ jobs:
               echo "Il file $file è troppo piccolo, potrebbe essere vuoto!"
             fi
           done
+
       - name: Commit and Push (con autenticazione)
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
@@ -46,4 +56,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/giuliomagnifico/raiplay-feed.git
           git add feed_*.xml || true
-          git diff --staged --quiet || (git commit -m "Aggiornamento automatico dei feeds" && git push origin main)
+          git diff --staged --quiet || (git commit -m "Aggiornamento automatico dei feeds" && git push origin HEAD:${GITHUB_REF_NAME})

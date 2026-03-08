@@ -9,6 +9,7 @@ import requests
 from feedendum import Feed, FeedItem, to_rss_string
 
 NSITUNES = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
+MAX_EPISODES = 20
 
 
 def url_to_filename(url: str) -> str:
@@ -179,8 +180,13 @@ class RaiParser:
             ]
 
         feed.items = []
+        processed_count = 0
 
         for item in _iter_episode_like_nodes(rdata):
+            if processed_count >= MAX_EPISODES:
+                print(f"[limit] Reached max episodes: {MAX_EPISODES}", flush=True)
+                break
+
             audio = item.get("audio") or {}
             d_audio = item.get("downloadable_audio") or item.get("downloadableAudio") or {}
 
@@ -271,6 +277,7 @@ class RaiParser:
                 fitem._data["image"] = {"url": img}
 
             feed.items.append(fitem)
+            processed_count += 1
 
         feed.items.sort(key=lambda x: x.update, reverse=True)
 

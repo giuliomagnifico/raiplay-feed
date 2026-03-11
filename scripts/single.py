@@ -9,7 +9,7 @@ import requests
 from feedendum import Feed, FeedItem, to_rss_string
 
 NSITUNES = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
-MAX_EPISODES = 20
+MAX_EPISODES = 10
 
 
 def url_to_filename(url: str) -> str:

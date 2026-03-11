@@ -1,3 +1,4 @@
+import json
 import os
 import re
 import tempfile
@@ -10,6 +11,7 @@ from feedendum import Feed, FeedItem, to_rss_string
 
 NSITUNES = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
 MAX_EPISODES = 10
+DEBUG_DUMP_FIRST_UNRESOLVED = True
 
 
 def url_to_filename(url: str) -> str:
@@ -81,7 +83,6 @@ def resolve_final_audio_url(session: requests.Session, url: str) -> str | None:
     """
     Restituisce solo URL audio diretti.
     Scarta relinker non risolti e playlist HLS (.m3u8).
-    Versione alleggerita per GitHub Actions.
     """
     if not url:
         return None
@@ -122,10 +123,26 @@ def resolve_final_audio_url(session: requests.Session, url: str) -> str | None:
     return None
 
 
+def dump_debug_item(item: dict, title: str) -> None:
+    payload = {
+        "title": title,
+        "audio": item.get("audio"),
+        "downloadable_audio": item.get("downloadable_audio"),
+        "downloadableAudio": item.get("downloadableAudio"),
+        "track_info": item.get("track_info"),
+        "trackInfo": item.get("trackInfo"),
+        "page_url": item.get("page_url"),
+        "pageUrl": item.get("pageUrl"),
+    }
+    print("[debug] First unresolved episode payload:", flush=True)
+    print(json.dumps(payload, indent=2, ensure_ascii=False), flush=True)
+
+
 class RaiParser:
     def __init__(self, url: str, folderPath: str) -> None:
         self.url = url.rstrip("/")
         self.folderPath = folderPath
+        self.debug_dump_done = False
 
         self.session = requests.Session()
         self.session.headers.update(
@@ -232,6 +249,9 @@ class RaiParser:
             enclosure_url = resolve_final_audio_url(self.session, raw_audio_url)
             if not enclosure_url:
                 print(f"[skip] Unresolved or unsupported audio: {title}", flush=True)
+                if DEBUG_DUMP_FIRST_UNRESOLVED and not self.debug_dump_done:
+                    dump_debug_item(item, title)
+                    self.debug_dump_done = True
                 continue
 
             print(f"[resolved] {enclosure_url}", flush=True)

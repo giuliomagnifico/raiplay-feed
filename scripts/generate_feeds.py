@@ -28,6 +28,7 @@ PROGRAMS = {
     "lapennicanza": "https://www.raiplaysound.it/programmi/lapennicanza",
     "revolution": "https://www.raiplaysound.it/programmi/revolution",
     "ilruggitodelconiglio": "https://www.raiplaysound.it/programmi/ilruggitodelconiglio",
+    "igrandimusicaldelruggitodelconiglio": "https://www.raiplaysound.it/playlist/igrandimusicaldelruggitodelconiglio",
     "tuttalacittaneparla": "https://www.raiplaysound.it/programmi/tuttalacittaneparla",
     "pantheon": "https://www.raiplaysound.it/programmi/pantheon",
     "primapagina": "https://www.raiplaysound.it/programmi/primapagina",

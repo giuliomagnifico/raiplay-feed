@@ -19,7 +19,6 @@ PROGRAMS = {
     "gr1": "https://www.raiplaysound.it/programmi/gr1",
     "grfriuliveneziagiulia": "https://www.raiplaysound.it/programmi/grfriuliveneziagiulia",
     "grsardegna": "https://www.raiplaysound.it/programmi/grsardegna",
-    "grsicilia": "https://www.raiplaysound.it/programmi/grsicilia",
     "gr3": "https://www.raiplaysound.it/programmi/gr3",
     "detectives-casirisoltieirrisolti": "https://www.raiplaysound.it/programmi/detectives-casirisoltieirrisolti",
     "radio3mondo": "https://www.raiplaysound.it/programmi/radio3mondo",

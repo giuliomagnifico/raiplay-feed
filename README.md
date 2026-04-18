@@ -37,6 +37,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [Prima Pagina](https://www.raiplaysound.it/programmi/primapagina) | `https://giuliomagnifico.github.io/raiplay-feed/feed_primapagina.xml` |
 | [Qualcosa di Miles](https://www.raiplaysound.it/programmi/qualcosadimiles) | `https://giuliomagnifico.github.io/raiplay-feed/feed_qualcosadimiles.xml` |
 | [La Pennicanza](https://www.raiplaysound.it/programmi/lapennicanza) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lapennicanza.xml` |
+| [Palla A2, territori a canestro]([https://www.raiplaysound.it/programmi/radio3mondo](https://www.raiplaysound.it/programmi/pallaa2territoriacanestro)) | `https://giuliomagnifico.github.io/raiplay-feed/feed_pallaa2territoriacanestro.xml` |
 | [Radio3 Mondo](https://www.raiplaysound.it/programmi/radio3mondo) | `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3mondo.xml` |
 | [Radio3 Scienza](https://www.raiplaysound.it/programmi/radio3scienza) | `https://giuliomagnifico.github.io/raiplay-feed/feed_radio3scienza.xml` |
 | [Radio anch'io](https://www.raiplaysound.it/programmi/radioanchio) | `https://giuliomagnifico.github.io/raiplay-feed/feed_radioanchio.xml` |

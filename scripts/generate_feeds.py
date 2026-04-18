@@ -44,6 +44,7 @@ PROGRAMS = {
     "uominieprofeti": "https://www.raiplaysound.it/programmi/uominieprofeti",
     "lastanzadellamusica": "https://www.raiplaysound.it/programmi/lastanzadellamusica",
     "qualcosadimiles": "https://www.raiplaysound.it/programmi/qualcosadimiles",
+    "pallaa2territoriacanestro": "https://www.raiplaysound.it/programmi/pallaa2territoriacanestro"
 }
 for name, url in PROGRAMS.items():
     print(f"Generazione feed per {name}...")

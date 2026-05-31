@@ -21,6 +21,7 @@ PROGRAMS = {
     "grsardegna": "https://www.raiplaysound.it/programmi/grsardegna",
     "gr3": "https://www.raiplaysound.it/programmi/gr3",
     "detectives-casirisoltieirrisolti": "https://www.raiplaysound.it/programmi/detectives-casirisoltieirrisolti",
+    "fuoridalcomune": "https://www.raiplaysound.it/programmi/fuoridalcomune",
     "radio3mondo": "https://www.raiplaysound.it/programmi/radio3mondo",
     "sotto-questalottaciriguarda": "https://www.raiplaysound.it/programmi/sotto-questalottaciriguarda",
     "battiti": "https://www.raiplaysound.it/programmi/battiti",

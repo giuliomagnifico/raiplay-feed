@@ -16,6 +16,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [Eta Beta](https://www.raiplaysound.it/programmi/etabeta) | `https://giuliomagnifico.github.io/raiplay-feed/feed_etabeta.xml` |
 | [Detectives - Casi risolti e irrisolti](https://www.raiplaysound.it/programmi/detectives-casirisoltieirrisolti) | `https://giuliomagnifico.github.io/raiplay-feed/feed_detectives-casirisoltieirrisolti.xml` |
 | [Fahrenheit](https://www.raiplaysound.it/programmi/fahrenheit) | `https://giuliomagnifico.github.io/raiplay-feed/feed_fahrenheit.xml` |
+| [Fuori dal Comune](https://www.raiplaysound.it/programmi/fuoridalcomune) | `https://giuliomagnifico.github.io/raiplay-feed/feed_fuoridalcomune.xml` |
 | [Giù la maschera](https://www.raiplaysound.it/programmi/giulamaschera) | `https://giuliomagnifico.github.io/raiplay-feed/feed_giulamaschera.xml` |
 | [GR 1](https://www.raiplaysound.it/programmi/gr1) | `https://giuliomagnifico.github.io/raiplay-feed/feed_gr1.xml` |
 | [GR 3](https://www.raiplaysound.it/programmi/gr3) | `https://giuliomagnifico.github.io/raiplay-feed/feed_gr3.xml` |

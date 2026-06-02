@@ -1,3 +1,6 @@
+> [!WARNING]
+> Questo repository è vecchio, il nuovo con diversi miglioramenti e la risoluzione dell'URL finale degli episodi si trova qua: [giuliomagnifico/raiplaysound-feed: Generatore di feed RSS per i contenuti di RaiPlaySound](https://github.com/giuliomagnifico/raiplaysound-feed)
+
 ## Raiplay Feed
 
 Raiplay feed serve per generare un feed RSS dei podcast RAI che altrimenti sarebbero accessibili solo tramite la loro (pessima) applicazione "RaiPlay Sound". In questo modo si può inserire il feed in ogni lettore podcast.

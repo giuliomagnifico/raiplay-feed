@@ -37,6 +37,7 @@ I podcast inclusi da me e da altri utenti. C'è il link a programma e il suo fee
 | [L'idealista](https://www.raiplaysound.it/programmi/lidealista) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lidealista.xml` |
 | [L'edicola di Radio1](https://www.raiplaysound.it/programmi/ledicoladiradio1) | `https://giuliomagnifico.github.io/raiplay-feed/feed_ledicoladiradio1.xml` |
 | [L'isola deserta](https://www.raiplaysound.it/programmi/lisoladeserta) | `https://giuliomagnifico.github.io/raiplay-feed/feed_lisoladeserta.xml` |
+| [Pantagruel](https://www.raiplaysound.it/programmi/pantagruel) | `https://giuliomagnifico.github.io/raiplay-feed/feed_pantagruel.xml` |
 | [Pantheon](https://www.raiplaysound.it/programmi/pantheon) | `https://giuliomagnifico.github.io/raiplay-feed/feed_pantheon.xml` |
 | [Prima Pagina](https://www.raiplaysound.it/programmi/primapagina) | `https://giuliomagnifico.github.io/raiplay-feed/feed_primapagina.xml` |
 | [Qualcosa di Miles](https://www.raiplaysound.it/programmi/qualcosadimiles) | `https://giuliomagnifico.github.io/raiplay-feed/feed_qualcosadimiles.xml` |

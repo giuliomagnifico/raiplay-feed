@@ -45,7 +45,8 @@ PROGRAMS = {
     "uominieprofeti": "https://www.raiplaysound.it/programmi/uominieprofeti",
     "lastanzadellamusica": "https://www.raiplaysound.it/programmi/lastanzadellamusica",
     "qualcosadimiles": "https://www.raiplaysound.it/programmi/qualcosadimiles",
-    "pallaa2territoriacanestro": "https://www.raiplaysound.it/programmi/pallaa2territoriacanestro"
+    "pallaa2territoriacanestro": "https://www.raiplaysound.it/programmi/pallaa2territoriacanestro",
+    "pantagruel": "https://www.raiplaysound.it/programmi/pantagruel",
 }
 for name, url in PROGRAMS.items():
     print(f"Generazione feed per {name}...")
@@ -54,7 +55,9 @@ for name, url in PROGRAMS.items():
         rai_parser.process()
         original_file = f"{name}.xml"
         if not os.path.exists(original_file):
-            print(f"Errore: Il file {original_file} non è stato generato correttamente!")
+            print(
+                f"Errore: Il file {original_file} non è stato generato correttamente!"
+            )
             continue
         new_file = f"feed_{name}.xml"
         os.rename(original_file, new_file)
